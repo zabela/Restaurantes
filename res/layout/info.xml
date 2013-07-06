@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"  
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Informação"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvnome1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="110px"
+	android:layout_marginLeft="10px"
+	android:text="Nome: "
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvnome2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvnome1"
+	android:layout_marginTop="110px"
+	android:text="Jose lllllllllllllllllllll"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvmorada1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="150px"
+	android:layout_marginLeft="10px"
+	android:text="Morada: "
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvmorada2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvmorada1"
+	android:layout_marginTop="150px"
+	android:text="Rua llllllllllllllllllll"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvtc1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="245px"
+	android:layout_marginLeft="10px"
+	android:text="Tipo de comida: "
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvtc2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvtc1"
+	android:layout_marginTop="245px"
+	android:text="Portuguesa"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvgp1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="285px"
+	android:layout_marginLeft="10px"
+	android:text="Gama de preços: "
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvgp2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvgp1"
+	android:layout_marginTop="285px"
+	android:text="17,5 - 20 €"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvc1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="350px"
+	android:layout_marginLeft="10px"
+	android:text="Classificação: "
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvc2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvc1"
+	android:layout_marginTop="350px"
+	android:text="5"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<Button
+	android:id="@+id/bClassificacao"
+	android:text="Classificar"
+	android:layout_width="wrap_content"
+	android:layout_height="60px"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+	android:gravity="center"
+	android:textSize="15sp"
+	android:layout_marginTop="330px"
+	android:layout_marginLeft="20px"
+	android:layout_toRightOf="@+id/tvc2"
+	></Button>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="495dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/bTrajecto"
+	android:text="Trajecto"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textColor="#ff5e5e5e"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:gravity="center"
+	android:textSize="26dip"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bContactos"
+	android:text="Contactos"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="26dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bComentarios"
+	android:text="Comentários"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="26dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/infoAnterior"
+	android:text="Anterior"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="24dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+</RelativeLayout>

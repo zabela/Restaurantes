@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"  
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Sobre a"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="80px"
+	android:layout_marginLeft="10px"
+	android:text="aplicação"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="210px"
+	android:layout_marginLeft="10px"
+	android:gravity="center"
+	android:text="Esta aplicação foi desenvolvida por: \n\nIsabel Póvoa \n\nNo âmbito da cadeira de: \n\nProjecto de Engenharia de Informática \n\nUniversidade de Aveiro \nJunho, 2010"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:layout_marginRight="10px"
+>
+</TextView>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="500dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/sobreAnterior"
+	android:text="Anterior"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textSize="24dip"
+	android:textColor="#ff5e5e5e"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"
+  >
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Categoria"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<CheckBox
+	android:id="@+id/cbTipoDeComida"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="130px"
+	android:layout_marginLeft="15px"
+	android:text=" Tipo de comida"
+	android:textSize="24sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</CheckBox>
+<Spinner
+	android:id="@+id/categoriaSpinner1"
+	android:layout_below="@+id/cbTipoDeComida"
+	android:layout_width="290px"
+	android:layout_height="60px"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="100px"
+>
+</Spinner>
+<CheckBox
+	android:id="@+id/cbGamaDePrecos"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="300px"
+	android:layout_marginLeft="15px"
+	android:text=" Gama de preços"
+	android:textSize="24sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</CheckBox>
+<Spinner
+	android:id="@+id/categoriaSpinner2"
+	android:layout_width="290px"
+	android:layout_height="60px"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/cbGamaDePrecos"
+	android:layout_marginLeft="100px"
+>
+</Spinner>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="379px"
+	android:layout_marginLeft="380px"
+	android:text=" €"
+	android:textSize="30sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</TextView>
+<CheckBox
+	android:id="@+id/cbClassificacao"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="470px"
+	android:layout_marginLeft="15px"
+	android:text=" Classificação"
+	android:textSize="24sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</CheckBox>
+<Spinner
+	android:id="@+id/categoriaSpinner3"
+	android:layout_width="290px"
+	android:layout_height="60px"
+	android:layout_marginTop="10px"
+	android:layout_below="@+id/cbClassificacao"
+	android:layout_marginLeft="100px"
+>
+</Spinner>
+<Button
+	android:id="@+id/categoriaCasa"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="13px"
+	android:layout_marginLeft="400px"
+	android:background="@drawable/menu"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+<Button
+	android:id="@+id/categoriaAnterior"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="9px"
+	android:text="Anterior"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+<Button
+	android:id="@+id/categoriaOk"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="23px"
+	android:layout_toRightOf="@+id/categoriaAnterior"
+	android:text="Ok"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+</RelativeLayout>

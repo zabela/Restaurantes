@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/restaurantes"
+	>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="480dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/bPesquisar"
+	android:text="Pesquisar"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textSize="28dip"
+	android:textColor="#ff5e5e5e"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bAjuda"
+	android:text="Ajuda"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textColor="#ff5e5e5e"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:gravity="center"
+	android:textSize="26dip"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bSobre"
+	android:text="Sobre"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="26dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bSair"
+	android:text="Sair"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="26dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+</AbsoluteLayout>

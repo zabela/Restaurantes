@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/fundo"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Local"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<RadioGroup
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+>
+<RadioButton
+	android:id="@+id/rbActual"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="130px"
+	android:layout_marginLeft="15px"
+	android:text=" Actual"
+	android:textSize="24sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</RadioButton>
+<RadioButton
+	android:id="@+id/rbOutro"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="60px"
+	android:layout_marginLeft="15px"
+	android:text=" Outro:"
+	android:textSize="24sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</RadioButton>
+</RadioGroup>
+<EditText
+	android:id="@+id/etOutro"
+	android:layout_width="127sp"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/rbOutro"
+	android:layout_marginTop="265px"
+	android:layout_marginLeft="250px"
+	android:textSize="17sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</EditText>
+<CheckBox
+	android:id="@+id/cbRaio"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="450px"
+	android:layout_marginLeft="15px"
+	android:text=" Raio: "
+	android:textSize="24sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</CheckBox>
+<EditText
+	android:id="@+id/etRaio"
+	android:layout_width="100sp"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="455px"
+	android:textSize="17sp"
+	android:textColor="#ff5e5e5e"
+	android:layout_toRightOf="@+id/cbRaio"
+>
+</EditText>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="454px"
+	android:layout_marginLeft="395px"
+	android:text="Km"
+	android:textSize="30sp"
+	android:textColor="#ff5e5e5e"
+	android:typeface="monospace"
+>
+</TextView>
+<Button
+	android:id="@+id/localAnterior"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="9px"
+	android:text="Anterior"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+<Button
+	android:id="@+id/localOk"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="23px"
+	android:layout_toRightOf="@+id/localAnterior"
+	android:text="Ok"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+</RelativeLayout>

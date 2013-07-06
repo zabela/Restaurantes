@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Ajuda"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<ScrollView
+	android:layout_width="wrap_content"
+	android:layout_height="530px"
+	android:layout_marginTop="110px"
+	android:layout_marginLeft="10px"
+	android:layout_marginRight="10px"
+>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="left"
+	android:scrollbars="vertical"
+	android:text="Esta aplicação permite-lhe pesquisar restaurantes, com a ajuda de filtros, numa área longe ou perto de si.
+\n\nDepois de iniciada a aplicação, comece por seleccionar o botão Pesquisar. 
+\n\nEm seguida, terá de indicar o local onde deseja efectuar a pesquisa, podendo optar pelo local onde se encontra ou por outro, o qual terá de ser inserido. 
+\nCaso deseje limitar a área da sua pesquisa, poderá ainda seleccionar a opção de raio e inserir um valor em km com o formato x.x ou x. 
+\nAo seleccionar o botão Ok, surgirá um menu onde poderá escolher o tipo de pesquisa, poderá optar por pesquisar por nome, seleccionando o botão Por nome, ou por categoria, seleccionando o botão Por categoria.
+\n\nNa pesquisa por categoria, terá ao seu dispor três tipos de filtros e poderá escolher entre usar três, dois, um ou nenhum dos filtros disponíveis (tipo de comida, gama de preço e classificação) para a pesquisa pretendida. Basta seleccionar o(s) filtro(s) que deseje e escolher uma das opções que se apresente em lista, por baixo do campo do(s) filtro(s) seleccionado(s).
+\n\nNa pesquisa por nome, poderá pesquisar um restaurante específico ao inserir o seu nome no campo apresentado.
+\n\nSeleccionando o botão Ok, em qualquer uma dos tipos de pesquisa, em seguida irá apresentar-se-lhe um mapa com as escolhas possíveis mediante os dados que inseriu. 
+\n\nNo mapa, poderá seleccionar um dos pontos (restaurantes) e aceder à informação existente sobre o restaurante (nome, morada, tipo de comida, gama de preço e classificação). 
+\n\nPara obter mais informação acerca do restaurante em questão, poderá seleccionar o botão Comentários para visualizar os seus comentários, o botão Contactos para visualizar o(s) seu(s) contacto(s) ou o botão Trajecto para visualizar o trajecto do lugar em que encontra até ao restaurante.
+\nSe assim o desejar, poderá deixar um comentário, na secção de comentários do restaurante, seleccionando o botão Comentar e após escrever o seu comentário, basta seleccionar o botão Submeter para o guardar.
+\nNa secção de contactos, poderá utilizá-lo(s) para futuras referências ou reservas, enviando e-mail caso o restaurante possua um contacto electrónico ou telefonando caso possua um contacto telefónico, ou ambos.
+\nPoderá ainda classificar o restaurante de 1 a 5, acrescentando uma classificação extra para a sua pontuação média.
+\n\nEm qualquer altura pode sempre voltar para trás, seleccionando o botão Anterior, ou voltar para o início da aplicação, quando lhe surgir um ícone de uma casa no canto superior do écran."
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+</ScrollView>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="500dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/ajudaAnterior"
+	android:text="Anterior"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textSize="24dip"
+	android:textColor="#ff5e5e5e"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+</RelativeLayout>

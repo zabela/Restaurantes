@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Restaurantes</string>
+    <string-array name="tipo_comida">
+        <item>Tradicional</item>
+        <item>Brasileira</item>
+        <item>Chinesa</item>
+        <item>Italiana</item>
+        <item>Indiana</item>
+        <item>Fast-Food</item>
+        <item>Japonesa</item>
+    </string-array>
+    <string-array name="gama_preco">
+        <item>2,5-7,5</item>
+        <item>7,5-10,0</item>
+        <item>10,0-12,5</item>
+        <item>12,5-15,0</item>
+        <item>15,0-17,5</item>
+        <item>17,5-20,0</item>
+        <item>20,0+</item>
+    </string-array>
+    <string-array name="classificacao">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/direccoes"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Pesquisar"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="480dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/bPorCategoria"
+	android:text="Por categoria"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textColor="#ff5e5e5e"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:gravity="center"
+	android:textSize="28dip"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/bPorNome"
+	android:text="Por nome"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="28dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+<Button
+	android:id="@+id/pesquisarAnterior"
+	android:text="Anterior"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:textSize="26dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+<Button
+	android:id="@+id/pesquisarCasa"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="13px"
+	android:layout_marginLeft="400px"
+	android:background="@drawable/menu"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+</RelativeLayout>

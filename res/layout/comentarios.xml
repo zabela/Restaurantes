@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Comentários"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<ScrollView
+	android:layout_width="wrap_content"
+	android:layout_height="530px"
+	android:layout_marginTop="110px"
+	android:layout_marginLeft="10px"
+	android:layout_marginRight="10px"
+>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/tvcomentarios"
+	android:gravity="left"
+	android:scrollbars="vertical"
+	android:text="comentário 1: txt
+\n\ncomentário 2: txt
+\n\ncomentário 3: txt
+\n\ncomentário 4: txt
+\n\ncomentário 5: txt
+\n\ncomentário 6: txxxxxxxxxxxxxxxxt
+\n\ncomentário 7: txt
+\n\ncomentário 8: txt
+\n\ncomentário 9: txt
+\n\ncomentário 10: txt
+\n\ncomentário 11: txt
+\n\ncomentário 12: txt
+\n\ncomentário 13: txt
+\n\ncomentário 14: txt
+\n\ncomentário 15: txt
+\n\ncomentário 16: txt
+\n\ncomentário 17: txt
+\n\ncomentário 18: txt"
+	android:textSize="15sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+</ScrollView>
+<Button
+	android:id="@+id/comentariosAnterior"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="9px"
+	android:text="Anterior"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+<Button
+	android:id="@+id/bComentar"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="23px"
+	android:text="Comentar"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:layout_toRightOf="@+id/comentariosAnterior"
+>
+</Button>
+</RelativeLayout>

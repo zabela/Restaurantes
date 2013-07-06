@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Contactos"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvtelefone1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="110px"
+	android:layout_marginLeft="10px"
+	android:text="Telefone: "
+	android:textSize="20sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<Button
+	android:id="@+id/bTelefone"
+	android:background="@drawable/phone"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@+id/tvtelefone1"
+	android:layout_marginLeft="100px"
+	android:layout_marginTop="110px"
+	></Button>
+<TextView
+	android:id="@+id/tvtelefone2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Jose llllllll"
+	android:textSize="20sp"
+	android:layout_marginLeft="10px"
+	android:layout_marginTop="180px"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvemail1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="310px"
+	android:layout_marginLeft="10px"
+	android:text="E-mail: "
+	android:textSize="20sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<TextView
+	android:id="@+id/tvemail2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="380px"
+	android:layout_marginLeft="10px"
+	android:text="isa.povoa@ua.pt"
+	android:textSize="20sp"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</TextView>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="500dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+	>
+<Button
+	android:id="@+id/contactosAnterior"
+	android:text="Anterior"
+	android:layout_width="250dip"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textSize="24dip"
+	android:textColor="#ff5e5e5e"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+	></Button>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/fundo"
+>
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5px"
+	android:layout_marginLeft="10px"
+	android:text="Comentário"
+	android:textSize="39sp"
+	android:typeface="monospace"
+	android:textStyle="bold"
+	android:textColor="#ff5e5e5e"
+	android:gravity="left"
+>
+</TextView>
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="440dip"
+	android:orientation="vertical"
+	android:gravity="bottom"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true"
+>
+<EditText
+	android:id="@+id/etcomentario"
+	android:layout_width="250dip"
+	android:layout_height="370dip"
+	android:gravity="center"
+	android:layout_gravity="center_horizontal"
+>
+</EditText>
+</LinearLayout>
+<Button
+	android:id="@+id/comentarAnterior"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="9px"
+	android:text="Anterior"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+>
+</Button>
+<Button
+	android:id="@+id/bSubmeter"
+	android:layout_width="220px"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="680px"
+	android:layout_marginLeft="23px"
+	android:text="Submeter"
+	android:textSize="24sp"
+	android:textStyle="bold"
+	android:typeface="monospace"
+	android:textColor="#ff5e5e5e"
+	android:layout_toRightOf="@+id/comentarAnterior"
+>
+</Button>
+</RelativeLayout>
